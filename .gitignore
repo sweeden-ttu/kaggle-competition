@@ -37,11 +37,15 @@ wheels/
 *.ckpt
 
 # Data files
-*.csv
 *.nii
 *.nii.gz
 *.dcm
-*.db
+
+# Except these essential files
+!train.csv
+!train_localizers.csv
+!test.csv
+!memory_bank.db
 
 # IDE
 .vscode/
