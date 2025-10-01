@@ -1,6 +1,12 @@
 # Data symlinks
 series/
 segmentations/
+series
+segmentations
+kaggle_evaluation/series
+kaggle_evaluation/segmentations
+kaggle_evaluation/series/
+kaggle_evaluation/segmentations/
 
 # Python
 __pycache__/
