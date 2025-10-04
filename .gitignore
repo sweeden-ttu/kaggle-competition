@@ -1,0 +1,65 @@
+# Data symlinks
+series/
+segmentations/
+series
+segmentations
+kaggle_evaluation/series
+kaggle_evaluation/segmentations
+kaggle_evaluation/series/
+kaggle_evaluation/segmentations/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Data files
+*.nii
+*.nii.gz
+*.dcm
+
+# Except these essential files
+!train.csv
+!train_localizers.csv
+!test.csv
+!memory_bank.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
